@@ -17,6 +17,8 @@ Repositório oficial: https://github.com/eg4000/SKU110K_CVPR19
 
 ## Como reproduzir
 
+**Visualização do notebook:** o GitHub não exibe o notebook executado direto na página (arquivo grande). Para ver as saídas: [abrir no nbviewer](https://nbviewer.org/github/lramosc1512/visao-computacional-varejo/blob/main/notebook/varejo_deteccao_segmentacao.ipynb) ou [abrir no Google Colab](https://colab.research.google.com/github/lramosc1512/visao-computacional-varejo/blob/main/notebook/varejo_deteccao_segmentacao.ipynb).
+
 1. Abrir `notebook/varejo_deteccao_segmentacao.ipynb` no Google Colab.
 2. Rodar com runtime **None** até a Fase 2 (as Fases 1 e 3 não dependem de GPU).
 3. A partir da Fase 2, trocar o runtime para GPU (T4) e executar novamente a célula de Setup.
@@ -26,10 +28,10 @@ Repositório oficial: https://github.com/eg4000/SKU110K_CVPR19
 
 ## Resultados principais
 
-| Modelo | mAP50 (teste) | mAP50-95 (teste) |
-|---|---|---|
-| Detecção (YOLO26n) | 0,820 | 0,471 |
-| Segmentação (YOLO26n-seg, v2) | 0,345 | 0,173 |
+| Modelo | mAP50 (teste) | mAP50-95 (teste) | IoU médio (teste) |
+|---|---|---|---|
+| Detecção (YOLO26n) | 0,820 | 0,471 | 0,793 |
+| Segmentação (YOLO26n-seg, v2) | 0,345 | 0,173 | - |
 
 Metodologia completa, hiperparâmetros e análise de erros: `docs/relatorio_tecnico.pdf`.
 
