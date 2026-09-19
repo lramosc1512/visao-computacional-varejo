@@ -30,7 +30,7 @@ Repositório oficial: https://github.com/eg4000/SKU110K_CVPR19
 
 | Modelo | mAP50 (teste) | mAP50-95 (teste) | IoU médio (teste) |
 |---|---|---|---|
-| Detecção (YOLO26n) | 0,820 | 0,471 | 0,793 |
+| Detecção (YOLO26n) | 0,816 | 0,470 | 0,796 |
 | Segmentação (YOLO26n-seg, v2) | 0,345 | 0,173 | - |
 
 Metodologia completa, hiperparâmetros e análise de erros: `docs/relatorio_tecnico.pdf`.
